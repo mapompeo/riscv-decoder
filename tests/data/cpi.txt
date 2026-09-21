@@ -1,0 +1,12 @@
+# Tabela de CPI por classe de instrucao (R5).
+# Formato: <classe> = <ciclos>. Linhas iniciadas por # sao ignoradas.
+# Classes reconhecidas: alu, muldiv, load, store, branch, jump, upper, system.
+
+alu    = 1.0
+muldiv = 3.0
+load   = 2.0
+store  = 1.0
+branch = 2.0
+jump   = 2.0
+upper  = 1.0
+system = 1.0
