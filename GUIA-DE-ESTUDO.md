@@ -532,12 +532,12 @@ arquivo .hex/.bin
 | Arquivo | Responsabilidade | Requisito |
 |---|---|---|
 | `src/parser.cpp` | Ler a entrada, detectar hex/binário, atribuir PC | R1 |
-| `src/decoder.cpp` | Formato, mnemônico, campos e imediatos | R2, R3 |
-| `src/instruction.cpp` | A estrutura `Instruction` e os ganchos da Etapa 2 | R3 |
+| `src/decoder.cpp` | Formato, mnemônico, campos, imediatos e os ganchos da Etapa 2 | R2, R3 |
 | `src/disassembler.cpp` | Assembly com nomes ABI, pseudo, alvo absoluto | R4 |
 | `src/statistics.cpp` | Distribuição por formato e CPI médio | R5 |
 | `src/main.cpp` | Linha de comando e impressão | R4 |
 | `tests/test_decoder.cpp` | Testes automatizados | validação |
+| `include/riscv.hpp` | Interface pública: `Instruction` e as funções de cada etapa | — |
 
 ### As duas decisões de projeto que valem explicar na defesa
 

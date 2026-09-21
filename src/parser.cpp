@@ -1,4 +1,4 @@
-#include "riscv/parser.hpp"
+#include "riscv.hpp"
 
 #include <algorithm>
 #include <cctype>

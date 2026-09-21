@@ -1,4 +1,4 @@
-#include "riscv/disassembler.hpp"
+#include "riscv.hpp"
 
 #include <array>
 #include <sstream>

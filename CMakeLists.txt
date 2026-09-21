@@ -18,7 +18,6 @@ if(MINGW)
 endif()
 
 add_library(riscv_core
-  src/instruction.cpp
   src/parser.cpp
   src/decoder.cpp
   src/disassembler.cpp

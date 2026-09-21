@@ -1,4 +1,4 @@
-#include "riscv/statistics.hpp"
+#include "riscv.hpp"
 
 #include <cctype>
 #include <istream>

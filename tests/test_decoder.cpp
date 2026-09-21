@@ -5,11 +5,9 @@
 #include <iostream>
 #include <sstream>
 #include <string>
+#include <vector>
 
-#include "riscv/decoder.hpp"
-#include "riscv/disassembler.hpp"
-#include "riscv/parser.hpp"
-#include "riscv/statistics.hpp"
+#include "riscv.hpp"
 
 namespace {
 
