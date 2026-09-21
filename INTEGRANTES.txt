@@ -1,7 +1,0 @@
-Avaliacao Pratica M1 - Decodificador de Instrucoes RISC-V (Etapa 1)
-Organizacao de Computadores - UNIVALI
-
-Integrantes do grupo:
-- Matheus Pompeo
-- (preencher)
-- (preencher)
