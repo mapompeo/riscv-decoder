@@ -1,9 +1,16 @@
-# Guia de Estudo — Decodificador de Instruções RISC-V
+# Decodificador de Instruções RISC-V — Etapa 1
 
-**Do zero, para quem nunca viu o assunto.**
-Este guia explica o trabalho inteiro: o que é uma instrução, como ela é
-organizada em bits, o que o nosso programa faz com ela e como responder às
-perguntas da defesa.
+Avaliação Prática M1 — Organização de Computadores (UNIVALI)
+
+Programa em C++17 que lê um arquivo de memória de instruções (ROM) em linguagem
+de máquina, decodifica cada palavra de 32 bits e emite a listagem completa, a
+desmontagem em assembly e um relatório estatístico com o CPI médio.
+
+Este README é também o **guia de estudo do trabalho, do zero, para quem nunca
+viu o assunto**: o que é uma instrução, como ela é organizada em bits, o que o
+programa faz com ela e como responder às perguntas da defesa.
+
+> Para só compilar e rodar, pule para [Como rodar](#13-como-rodar).
 
 ---
 
